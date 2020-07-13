@@ -2,58 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 
   <style media="screen">
 
     .wrap{
-      background-color:rgb(20, 97, 121);
-      width: 100%;
-      margin: auto;
-      max-width:1200px;
-      display:flex
+      background-color:rgb(245, 111, 197);
+      width:100%;
+      max-width:1400px;
     }
 
-
-    .col{
-      width:calc(100% / 6);
-      box-sizing: border-box;
-      padding: 10px 10px;
-    }
     .item{
-      height: 200px;
-      background-color:  rgb(179, 252, 116);
+      padding: 10px;
+      box-sizing: border-box;
+      background-color:rgb(19, 22, 2);
+      color: rgb(102, 215, 106);
     }
 
+    .item2 img{
+      width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+
+      .wrap{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .item{
+        width: calc(100% / 2);
+      }
+
+    }
+
+    @media screen and (min-width: 993px) {
+
+      .item{
+        width: calc(100% / 3);
+      }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+
+      .item{
+        width: calc( 100% / 7);
+      }
+
+    }
   </style>
 
 </head>
 <body>
 
 <div class="wrap">
-  <div class="col">
-    <div class="item"></div>
-  </div>
-  <div class="col">
-    <div class="item"></div>
-  </div>
-  <div class="col">
-    <div class="item"></div>
-  </div>
-  <div class="col">
-    <div class="item"></div>
-  </div>
-  <div class="col">
-    <div class="item"></div>
-  </div>
-  <div class="col">
-    <div class="item"></div>
-  </div>
-</div>
-
-
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+<div class="item"><div class="item2"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
 </div>
 
 
