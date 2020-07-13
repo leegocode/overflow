@@ -9,15 +9,22 @@
   <style media="screen">
 
     .wrap{
-      background-color:rgb(245, 111, 197);
-      width:100%;
+      background-color:rgb(20, 97, 121);
+      width: 100%;
+      margin: auto;
       max-width:1200px;
+      display:flex
     }
 
+
+    .col{
+      width:calc(100% / 6);
+      box-sizing: border-box;
+      padding: 10px 10px;
+    }
     .item{
       height: 200px;
-      margin: 15px;
-      background-color:rgb(208, 232, 61);
+      background-color:  rgb(179, 252, 116);
     }
 
   </style>
@@ -26,12 +33,27 @@
 <body>
 
 <div class="wrap">
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+  <div class="col">
+    <div class="item"></div>
+  </div>
+</div>
+
+
 </div>
 
 
