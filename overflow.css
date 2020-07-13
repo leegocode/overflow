@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrap{
+  width:100%;
+  max-width:960px;
+  display: flex;
+  margin: auto;
+  background-color: rgb(156, 24, 170);
+}
+.item{
+  width:31.25%;
+  background: #989494;
+  margin:1.041666667%;
+}
+
+.item img{
+  width: 100%;
+  height: auto;
+}
+
+
+.box {
+  width:300px;
+  height:100px;
+  background-color: rgb(70, 186, 82);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.active {
+    order: -1;
+    flex: 1 0 100%;
+}
